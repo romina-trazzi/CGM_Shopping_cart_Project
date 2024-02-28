@@ -10,7 +10,6 @@ function App() {
   return (
    
     <CartContextProvider>
-
       <Header/>
 
       <Shop>
@@ -20,7 +19,6 @@ function App() {
           </li>
         ))}
       </Shop>
-
     </CartContextProvider>
 
     
