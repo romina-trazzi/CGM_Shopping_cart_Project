@@ -41,9 +41,11 @@ function shoppingCartReducer(state, action) {
         quantity: 1,
       });
     }
-
+    
     return {
-      ...state, // al return sempre meglio dare uno state per essere certi di avere l'ultimo stato aggiornato
+      /* al return sempre meglio dare uno state 
+      per essere certi di avere l'ultimo stato aggiornato */
+      ...state, 
       items: updatedItems,
     };
   }
